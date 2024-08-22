@@ -1,17 +1,16 @@
-/* Ensure that the holder takes up the full viewport */
 .holder {
-  display: flex;            /* Enable Flexbox layout */
-  justify-content: center; /* Center items horizontally */
-  align-items: center;     /* Center items vertically */
-  width: 100vw;             /* Full viewport width */
-  height: 100vh;            /* Full viewport height */
-  margin: 0;                /* Remove default margin */
-  padding: 0;               /* Remove default padding */
+  display: flex;           
+  justify-content: center; 
+  align-items: center;     
+  width: 100vw;            
+  height: 100vh;            
+  margin: 0;                
+  padding: 0;               
 }
 
-/* Style for item-1 */
+
 .item-1 {
-  width: 100px;             /* Set width of item-1 */
-  height: 100px;            /* Set height of item-1 */
-  background-color: red;   /* Set background color of item-1 */
+  width: 100px;             
+  height: 100px;          
+  background-color: red;  
 }
